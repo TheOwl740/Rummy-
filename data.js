@@ -6,4 +6,4 @@ const et = new EventTracker(cs); //creates a new event tracker to gather info on
 
 //CANVAS ELEMENT SETUP
 cs.setDimensions(window.visualViewport?.width || window.innerWidth, window.visualViewport?.height || window.innerHeight);
-cs.fillAll(new Fill("black", 1))
+cs.fillAll(new Fill("black", 1));
